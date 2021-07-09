@@ -1,0 +1,323 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body{
+	background: #252526;
+	font-family: Arial;
+	color: white;
+	overflow-x: hidden;
+}
+#mainNav{
+	font-size: 18px;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+}
+
+#mainNav ul{
+	list-style-type: none;
+	text-align: center;
+	padding: 15px;
+}
+#mainNav li{
+	display: inline;
+	margin: 20px;
+}
+
+#mainNav a{
+	text-decoration: none;
+	color: white;
+	border-left: solid 2px #252526;
+}
+#mainNav a:hover{
+	border-bottom: solid 2px white;
+}
+
+#mainImage{
+	width: 100%;
+	left: 0px;
+}
+
+#hide{
+	opacity: 0;
+}
+
+.column {
+  float: left;
+  width: calc(25% - 64px);
+  text-align: center;
+  background-color: #39393d;
+  border-right: solid 32px #252526;
+  border-left: solid 32px #252526;
+}
+
+.column img{
+	width: 75%;
+	border-bottom: solid 2px #252526;
+	margin: 25px;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#visitBtn{
+	border: none;
+	width: 75px;
+	height: 30px;
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	text-decoration-style: none;
+	font-family: Arial;
+	background-color: #47b8d4;
+	margin: 15px;
+}
+#visitBtn:hover{
+	cursor: pointer;
+	background-color: #43AFCA;
+}
+
+#visitBtn a{
+	text-decoration: none;
+	color: white;
+}
+
+.bottomText{
+	position: static;
+	margin-top: 100px;
+	text-align: center;
+    left: 0%;
+    top: 82.87%;
+    width: 100%;
+}
+
+/*Cal Page*/ 
+
+.calMain{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	width: 184px;
+	padding: 5px;
+	background: #39393d;
+
+	-webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none; 
+}
+#calLine1{
+	list-style-type: none;
+	text-align: center;
+	padding: 5px;
+}
+#calLine1 li{
+	display: inline;
+}
+
+.calbtn button{
+	border: none;
+	width: 40px;
+	height: 30px;
+	font-size: 16px;
+	background-color: #252526;
+	font-weight: bold;
+	text-decoration-style: none;
+	font-family: Arial;
+	color: white;
+}
+
+#calbtn{
+	border: none;
+	width: 40px;
+	height: 30px;
+	font-size: 16px;
+	background-color: #252526;
+	font-weight: bold;
+	text-decoration-style: none;
+	font-family: Arial;
+	color: white;
+}
+
+.topbtn button{
+	border: none;
+	width: 55px;
+	height: 30px;
+	font-size: 16px;
+	background-color: #252526;
+	font-weight: bold;
+	text-decoration-style: none;
+	font-family: Arial;
+	color: white;
+}
+
+#epualsBtn{
+	border: none;
+	width: 175px;
+	height: 30px;
+	font-size: 16px;
+	background-color: #252526;
+	font-weight: bold;
+	text-decoration-style: none;
+	font-family: Arial;
+	color: white;
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+
+.displayMain{
+	text-align: right;
+	margin: 5px;
+	height: 35px;
+	background: #252526;
+	padding: 2px;
+}
+
+#info{
+	text-align: center;
+	color: #d14141;
+}
+
+#canvasDiv{
+	margin-top: 2%;
+	text-align: center;
+}
+
+#canvas{
+	border: solid #252526 4px;
+	background: white;
+	margin: auto;
+}
+
+#left{
+	width: 50%;
+	height: 54px;
+	float: left;
+	background-color: #39393d;
+	text-align: right;
+}
+
+.right{
+	width: 50%;
+	height: 54px;
+	float: right;
+	background-color: #39393d;
+	text-align: left;
+}
+
+#rgbColour li{
+	display: inline;
+}
+
+#rowleft{
+	float: left;
+}
+#rowright{
+	float: right;
+}
+
+.colour{
+	width: 20px;
+	height: 20px;
+	margin-top: 4px;
+	margin-left: 4px;
+	margin-right: 4px;
+	float: right;
+	border: black solid 1px;
+}
+
+#slider{
+	-webkit-appearance: none;
+  width: 140px;
+  height: 14px;
+  background: #252526;
+  outline: none;
+  margin-top: 5px;
+}
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 25px;
+	height: 14px;
+	background: white;
+	cursor: pointer;
+  }
+
+#clearbtn{
+	border: none;
+	width: 280px;
+	height: 30px;
+	font-size: 16px;
+	background-color: #252526;
+	font-weight: bold;
+	text-decoration-style: none;
+	font-family: Arial;
+	color: white;
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+
+#black{
+	background-color: black;
+}
+#darkgrey{
+	background-color: #3d3d3d;
+}
+#lightgrey{
+	background-color: #969696;
+}
+#white{
+	background-color: #ffffff;
+}
+#red{
+	background-color: #ff0000;
+}
+#darkred{
+	background-color: #691414;
+}
+#orange{
+	background-color: #ff7300;
+}
+#brown{
+	background-color: #4a270e;
+}
+#yellow{
+	background-color: #ffe100;
+}
+#green{
+	background-color: #5dd611;
+}
+#darkgreen{
+	background-color: #0f6e24;
+}
+#lightblue{
+	background-color: #70dbff;
+}
+#darkblue{
+	background-color: #008ebd;
+}
+#purple{
+	background-color: #4400ff;
+}
+#pink{
+	background-color: #dc4fff;
+}
+#verydarkblue{
+	background-color: #001eff;
+}

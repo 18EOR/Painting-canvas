@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Drawing</title>
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+    <script src="Drawing.js" defer></script>
+  </head>
+  <body>
+    <div id="left">
+      <div id="rowright">
+        <div>
+          <div
+            class="colour"
+            id="brown"
+            onclick="colourSetting('#4a270e')"
+          ></div>
+          <div
+            class="colour"
+            id="orange"
+            onclick="colourSetting('#ff7300')"
+          ></div>
+          <div
+            class="colour"
+            id="darkred"
+            onclick="colourSetting('#691414')"
+          ></div>
+          <div class="colour" id="red" onclick="colourSetting('#ff0000')"></div>
+          <div
+            class="colour"
+            id="white"
+            onclick="colourSetting('#ffffff')"
+          ></div>
+          <div
+            class="colour"
+            id="lightgrey"
+            onclick="colourSetting('#969696')"
+          ></div>
+          <div
+            class="colour"
+            id="darkgrey"
+            onclick="colourSetting('#3d3d3d')"
+          ></div>
+          <div
+            class="colour"
+            id="black"
+            onclick="colourSetting('#000000')"
+          ></div>
+        </div>
+        <div>
+          <div
+            class="colour"
+            id="yellow"
+            onclick="colourSetting('#ffe100')"
+          ></div>
+          <div
+            class="colour"
+            id="green"
+            onclick="colourSetting('#5dd611')"
+          ></div>
+          <div
+            class="colour"
+            id="darkgreen"
+            onclick="colourSetting('#0f6e24')"
+          ></div>
+          <div
+            class="colour"
+            id="lightblue"
+            onclick="colourSetting('#70dbff')"
+          ></div>
+          <div
+            class="colour"
+            id="darkblue"
+            onclick="colourSetting('#008ebd')"
+          ></div>
+          <div
+            class="colour"
+            id="verydarkblue"
+            onclick="colourSetting('#001eff')"
+          ></div>
+          <div
+            class="colour"
+            id="purple"
+            onclick="colourSetting('#4400ff')"
+          ></div>
+          <div
+            class="colour"
+            id="pink"
+            onclick="colourSetting('#dc4fff')"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="right">
+      <div id="rowleft">
+        <div>
+          <span id="sliderText">Brush Size : 010px</span>
+          <input
+            type="range"
+            min="1"
+            max="100"
+            value="10"
+            class="slider"
+            id="slider"
+            onchange="updateSliderValue();"
+          />
+        </div>
+        <div>
+          <button id="clearbtn">Clear Canvas</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="clear"></div>
+
+    <div id="canvasDiv">
+      <canvas id="canvas"></canvas>
+    </div>
+  </body>
+</html>
